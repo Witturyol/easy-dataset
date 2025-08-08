@@ -144,6 +144,13 @@ export default function PdfProcessingDialog({
             selected={value === 'default'}
           />
           <OptionCard
+          icon={<ArticleOutlinedIcon fontSize="large" />}
+          title="Docling"
+          description="Use Docling for PDF→Markdown conversion"
+          onClick={() => handleOptionClick('docling')}
+          selected={value === 'docling'}
+          />
+          <OptionCard
             icon={<ScienceOutlinedIcon fontSize="large" />}
             title="MinerU API"
             description={isMinerUEnabled ? t('textSplit.mineruApiDesc') : t('textSplit.mineruApiDescDisabled')}

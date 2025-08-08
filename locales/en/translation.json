@@ -291,6 +291,8 @@
     "pdfProcessingStrategyMinerUHelper": "Use MinerU API for parsing. Please configure the MinerU API Token first",
     "pdfProcessingStrategyVision": "Custom Vision Model",
     "pdfProcessingStrategyVisionHelper": "Use a custom vision model for parsing",
+    "pdfProcessingStrategyDocling": "Docling",
+    "pdfProcessingStrategyDoclingHelper": "Use Docling for PDF→Markdown conversion",
     "pdfProcessingToast": "File detected. The system will create a background task to parse the file",
     "pdfProcessingWaring": "There is a file processing task in progress. It is recommended to wait for the task to complete before performing other operations, otherwise it may affect the quality of data generation!",
     "pdfProcessingLoading": "Executing file conversion task, please wait for the task to complete before uploading new files...",

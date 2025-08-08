@@ -18,6 +18,7 @@ export default function PdfSettings({ pdfStrategy, setPdfStrategy, selectedViosn
           size="small"
         >
           <MenuItem value="default">{t('textSplit.defaultStrategy')}</MenuItem>
+          <MenuItem value="docling">{t('textSplit.doclingStrategy')}</MenuItem>
           <MenuItem value="vision">{t('textSplit.visionStrategy')}</MenuItem>
         </Select>
       </FormControl>
